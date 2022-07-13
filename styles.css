@@ -73,7 +73,16 @@ body {
     margin-top: -8px;
 }
 main {
+
 }
+#top .container {
+    background-color: rgba(235,143,129,0.30);
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    /* [disabled]padding-left: 15px; */
+}
+
 #sectionsIntro {
 }
 
@@ -94,7 +103,22 @@ main {
 #workSections li a img {
     border: thick solid rgba(235,143,129,1.00);
     border-radius: 110px;
+    text-align: center;
 }
+#workSections li .overlay {
+    padding-bottom: 24px;
+
+
+}
+
+
+
+#top p {
+    margin-left: 25px;
+    margin-right: 15px;
+
+}
+
 
 
 
@@ -145,7 +169,7 @@ main {
 }
 .iterationContainer {
     position: relative;
-    background-color: rgba(235,143,129,1.00);
+    background-color: rgba(235,143,129,0.30);
     padding-bottom: 5px;
     padding-top: 1px;
     margin-top: 20px;
@@ -163,7 +187,7 @@ main {
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border: thin solid rgba(212,225,212,1.00);
+    border: thin solid rgba(235,143,129,1.00);
     padding-left: 20px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -174,6 +198,7 @@ main {
     margin-right: 9px;
     margin-bottom: 9px;
     margin-left: 9px;
+    background-color: rgba(235,143,129,1.00);
 }
 #illustration .container {
     position: relative;
@@ -196,7 +221,7 @@ main {
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
-    border: thin solid rgba(235,143,129,1.00);
+    border: thin solid rgba(235,143,129,0.30);
     padding-left: 25px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -210,7 +235,7 @@ main {
 }
 .illustrationIterationContainer {
     position: relative;
-    background-color: rgba(235,143,129,1.00);
+    background-color: rgba(235,143,129,0.30);
     padding-bottom: 5px;
     padding-top: 1px;
     margin-top: 20px;
@@ -333,6 +358,7 @@ main {
     background-color: rgba(166,164,164,0.24);
     padding-top: 1px;
     padding-bottom: 6px;
+    margin-bottom: 50px;
 }
 #illustrationTitle {
     margin-top: 25px;
@@ -672,7 +698,7 @@ main #aboutDescription {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  position: relative;
+    position: relative;
 }
 
 /* Hide the images by default */
@@ -680,6 +706,7 @@ main #aboutDescription {
     display: none;
     margin-bottom: -2px;
     margin-top: 4px;
+    text-align: center;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
