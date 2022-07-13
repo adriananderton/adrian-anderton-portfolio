@@ -21,11 +21,10 @@ header {
     border-bottom: medium solid #A6A4A4;
 }
 header h1 {
-    font-size: 5em;
-    line-height: 1em;
     text-align: center;
+    font-size: 6rem;
+    margin-bottom: -85px;
     margin-top: -10px;
-    margin-bottom: -70px;
 }
 #topNav {
     padding-top: 50px;
@@ -34,11 +33,13 @@ header h1 {
 
 #topNav ul {
     text-align: right;
+    margin-bottom: 6px;
 }
 #topNav ul li {
     display: inline-block;
     text-align: right;
     padding-right: 39px;
+    margin-bottom: -40px;
 }
 
 
@@ -71,7 +72,7 @@ body {
     box-sizing: content-box;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: -8px;
+    margin-top: -35px;
 }
 main {
 
