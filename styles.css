@@ -108,11 +108,15 @@ main {
     border: thick solid rgba(166,164,164,1.00);
     border-radius: 110px;
     text-align: center;
+    -webkit-box-shadow: 2px 4px 12px 4px;
+    box-shadow: 2px 4px 12px 4px;
 }
 #workSections li a img:hover  {
     border: thick solid rgba(235,143,129,1.00);
     border-radius: 110px;
     text-align: center;
+    -webkit-box-shadow: 2px 4px 12px 4px;
+    box-shadow: 2px 4px 12px 4px;
 }
 #workSections li .overlay {
     padding-bottom: 24px;
@@ -570,7 +574,7 @@ main #galleryAll {
     /* [disabled]margin-left: 25px; */
     /* [disabled]margin-right: 25px; */
     background-color: rgba(235,143,129,0.30);
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     padding-top: 25px;
 
 }
@@ -585,7 +589,7 @@ main #aboutDescription {
     float: right;
     margin-right: 35px;
     padding-left: 15px;
-    margin-left: 0px;
+    margin-left: 10px;
     border-radius: 32px;
     border-collapse: separate;
     border-spacing: 6px 2px;
@@ -601,8 +605,6 @@ main #aboutDescription {
     margin-left: 45px;
 }
 #aboutDescription p {
-    font-size: 1.6rem;
-    line-height: 1.6rem;
     padding-right: 25px;
     color: #2F2828;
     margin-left: 50px;
@@ -613,12 +615,13 @@ main #aboutDescription {
     padding-top: 25px;
 }
 #iframe .iframe_Boarder {
-    border: medium solid #5A865B;
+    border: thin solid #A6A4A4;
     margin-left: 170px;
     margin-right: 170px;
-    padding-top: 3px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 21px;
 }
 
 
@@ -632,7 +635,6 @@ main #aboutDescription {
     padding-right: 15px;
     margin-top: 8px;
     border: thin solid #EB8F81;
-    /* [disabled]padding-bottom: 25px; */
 }
 #galleryIntro h1 {
     text-align: right;
@@ -646,8 +648,6 @@ main #aboutDescription {
 
 #galleryIntro p {
     text-align: right;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
     padding-left: 15px;
 }
 #galleryAll div .dot {
@@ -734,12 +734,13 @@ main #aboutDescription {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: #D4E1D4;
+    color: #000000;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    background-color: rgba(255,255,255,1.00);
 }
 
 /* Position the "next button" to the right */
@@ -808,7 +809,7 @@ main #aboutDescription {
 /* gallery slide show */
 
 footer {
-    margin-top: 60px;
+    /* [disabled]margin-top: 60px; */
     border-top: thin solid #5A865B;
     margin-bottom: -35px;
 }
