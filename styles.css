@@ -78,7 +78,7 @@ main {
 
 }
 #top .container {
-    background-color: rgba(209,233,222,1.00);
+    background-color: rgba(235,143,129,0.30);
     margin-top: -30px;
     padding-bottom: 25px;
     margin-bottom: 25px;
@@ -105,6 +105,11 @@ main {
 }
 
 #workSections li a img {
+    border: thick solid rgba(166,164,164,1.00);
+    border-radius: 110px;
+    text-align: center;
+}
+#workSections li a img:hover  {
     border: thick solid rgba(235,143,129,1.00);
     border-radius: 110px;
     text-align: center;
@@ -112,6 +117,7 @@ main {
 #workSections li .overlay {
     padding-bottom: 24px;
     color: rgba(47,40,40,1.00);
+    margin-top: 23px;
 
 
 }
@@ -166,11 +172,66 @@ main {
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    border: thin solid rgba(235,143,129,1.00);
+    border: 0.25rem solid rgba(235,143,129,0.30);
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     display: inline-block;
+}
+#graphicDesignProject p {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-bottom: 0px;
+}
+#graphicDesignProject aside {
+    padding-right: 515px;
+    margin-right: 27px;
+    padding-top: 0px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+    padding-bottom: 1px;
+    border: thin solid #5A865B;
+    background-repeat: no-repeat;
+}
+#graphicDesignProject aside h2 {
+    margin-left: 36px;
+    padding-top: 16px;
+}
+#graphicDesignProject aside ul li {
+    display: list-item;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    margin-right: -511px;
+    margin-bottom: 0px;
+}
+#graphicDesignResult {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #5A865B;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#graphicDesignResult h2 {
+    color: #D4E1D4;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+#graphicDesignResult p {
+    color: #D4E1D4;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+#graphicDesign .backToTop {
+    margin-left: 25px;
+    border: thin solid rgba(235,143,129,1.00);
+    text-align: center;
+    width: 16%;
+    background-color: rgba(255,255,255,0.82);
 }
 .iterationContainer {
     position: relative;
@@ -226,13 +287,13 @@ main {
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
-    border: thin solid rgba(235,143,129,0.30);
+    border: medium solid rgba(235,143,129,0.30);
     padding-left: 25px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     display: inline-block;
-    background-color: rgba(235,143,129,1.00);
+    /* [disabled]background-color: rgba(235,143,129,1.00); */
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -259,13 +320,13 @@ main {
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border: thin solid rgba(166,164,164,1.00);
+    border: medium solid rgba(166,164,164,1.00);
     padding-left: 20px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     display: inline-block;
-    background-color: rgba(166,164,164,1.00);
+    /* [disabled]background-color: rgba(166,164,164,1.00); */
 }
 
 
@@ -303,60 +364,6 @@ main {
     margin-right: 25px;
     margin-bottom: 25px;
     margin-top: 25px;
-}
-#graphicDesignProject p {
-    margin-left: 0px;
-    margin-right: 15px;
-    padding-bottom: 0px;
-}
-#graphicDesignProject aside {
-    padding-right: 515px;
-    margin-right: 27px;
-    padding-top: 0px;
-    margin-left: 1px;
-    margin-bottom: 25px;
-    padding-bottom: 1px;
-    border: thin solid #5A865B;
-    background-repeat: no-repeat;
-}
-#graphicDesignProject aside h2 {
-    margin-left: 36px;
-    padding-top: 16px;
-}
-#graphicDesignProject aside ul li {
-    display: list-item;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: left;
-    margin-right: -511px;
-    margin-bottom: 0px;
-}
-#graphicDesignResult {
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: #5A865B;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-#graphicDesignResult h2 {
-    color: #D4E1D4;
-    margin-left: 15px;
-    padding-top: 15px;
-}
-#graphicDesignResult p {
-    color: #D4E1D4;
-    margin-left: 15px;
-    padding-top: 15px;
-}
-#graphicDesign .backToTop {
-    margin-left: 25px;
-    border: thin solid rgba(235,143,129,1.00);
-    text-align: center;
-    width: 16%;
 }
 
 #illustration {
@@ -451,6 +458,7 @@ main {
     border: thin solid rgba(235,143,129,1.00);
     text-align: center;
     width: 16%;
+    background-color: rgba(255,255,255,0.82);
 }
 
 
@@ -549,6 +557,7 @@ main #publicationProject aside {
     border: thin solid rgba(235,143,129,1.00);
     text-align: center;
     width: 16%;
+    background-color: rgba(255,255,255,0.82);
 }
 
 
@@ -634,10 +643,6 @@ main #aboutDescription {
     margin-top: 3px;
     margin-left: 10px;
 }
-#galleryIntro h1 {
-    padding-bottom: 0px;
-    margin-bottom: -10px;
-}
 
 #galleryIntro p {
     text-align: right;
@@ -655,6 +660,7 @@ main #aboutDescription {
     margin-left: 49px;
     margin-top: 9px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .galleryRow {
